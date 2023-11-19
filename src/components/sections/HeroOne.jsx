@@ -102,6 +102,7 @@ const HeroOne = () => {
                 onChange={handleChange}
                 placeholder="שם מלא"
               />
+              <span>כמות אנשים</span>
               <input
                 type="number"
                 name="numberOfPeople"
