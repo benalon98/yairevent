@@ -83,7 +83,7 @@ const HeroOne = () => {
             />
           </section>
         ) : (
-          <div>
+          <div style={{ marginBottom: 100 }}>
             <div
               style={{
                 color: "red",
@@ -102,13 +102,17 @@ const HeroOne = () => {
                 onChange={handleChange}
                 placeholder="שם מלא"
               />
-              <span>כמות אנשים</span>
+              <div style={{ display: "flex", flexDirection: "column" }}>
+                <span>כמות אנשים</span>
+                <span>{formData.numberOfPeople}</span>
+              </div>
               <input
-                type="number"
+                type="range"
                 name="numberOfPeople"
                 value={formData.numberOfPeople}
                 onChange={handleChange}
                 min={1}
+                style={{ direction: "ltr" }}
                 placeholder="כמות אנשים"
               />
 
