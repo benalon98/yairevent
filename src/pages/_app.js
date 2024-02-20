@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         {/* seo begin */}
-        <title>אישור הגעה | יאיר אבר</title>
+        <title>אישור הגעה | הדר מרסל ובן אלון</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* seo end */}
       </Head>

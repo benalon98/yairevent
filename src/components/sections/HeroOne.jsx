@@ -112,7 +112,8 @@ const HeroOne = () => {
                 value={formData.numberOfPeople}
                 onChange={handleChange}
                 min={1}
-                style={{ direction: "ltr" }}
+                max={10}
+                style={{ direction: "ltr", height: "40px" }}
                 placeholder="כמות אנשים"
               />
 
