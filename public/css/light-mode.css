@@ -1256,7 +1256,7 @@ right banner
   position: fixed;
   overflow: hidden;
   right: 0;
-  width: 35%;
+  width: 40%;
   height: calc(100vh - 90px);
   background-color: rgb(233, 233, 233);
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
